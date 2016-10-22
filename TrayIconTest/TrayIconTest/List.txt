@@ -1,0 +1,7 @@
+V3Main.exe%C:\Program Files\AhnLab\V3IS80\V3Main.exe
+chrome.exe%C:\Program Files\Google\Chrome\Application\chrome.exe
+UltraISO.exe%C:\Program Files\UltraISO\UltraISO.exe
+Melon.exe%C:\Program Files\MelOn Player4\Melon.exe
+KakaoTalk.exe%C:\Program Files\Kakao\KakaoTalk\KakaoTalk.exe
+Judgeclient.exe%C:\Program Files\Judge System\Judgeclient.exe
+Hwp.exe%C:\Program Files\Hnc\Hwp80\Hwp.exe

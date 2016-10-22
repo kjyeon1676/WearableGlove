@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\SerialControll">
+      <UniqueIdentifier>{2b78e932-b728-46a3-8a86-5a6259bdd3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SettingMenu">
+      <UniqueIdentifier>{e6205d99-d8f0-4c47-8968-19f5c44ce62c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Controller">
+      <UniqueIdentifier>{ceec2348-bce4-48f8-b8d1-36721bec5ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Controller">
+      <UniqueIdentifier>{725316c8-789a-4e05-b590-0b607c12c09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Controller\Event">
+      <UniqueIdentifier>{a572fb6b-f2f4-4386-b8bd-66c82282527b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data">
+      <UniqueIdentifier>{3aa55ba0-c394-4f84-9f94-240cfa719b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data\Motion">
+      <UniqueIdentifier>{bb41ead6-4db2-417f-b862-37ec831e27a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data\Motion\Fragment">
+      <UniqueIdentifier>{20864aae-c26e-47ee-9790-a370f2e5c07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data\OneDimension">
+      <UniqueIdentifier>{d232e31a-9719-4758-aec8-19ab20d90f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data\ThreeDimension">
+      <UniqueIdentifier>{878189d3-3d70-4f12-ba6f-3fac541512a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\EnumData">
+      <UniqueIdentifier>{09f73aa3-7f10-4231-be46-0a1a3e4e6934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Controller\Motion">
+      <UniqueIdentifier>{fa84027b-f48a-4885-ac4e-d162f69fef9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Controller\Motion\Mouse">
+      <UniqueIdentifier>{d10c021a-6083-4e28-8510-36167f07bf40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Controller\Motion\Mouse\Move">
+      <UniqueIdentifier>{e2d56cc0-b9c7-4096-82f7-87fd0b147cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Data">
+      <UniqueIdentifier>{945c841d-8e55-4b12-aeb4-daed3de74b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Data\Motion">
+      <UniqueIdentifier>{c7a3d693-aa34-48b0-bfd9-83a5020cd391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Data\Motion\Fragment">
+      <UniqueIdentifier>{76d46e53-7dc3-4673-aa80-bba089a929f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Data\OneDimension">
+      <UniqueIdentifier>{84fc822c-6e69-4511-be4c-a54611ee8d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Data\ThreeDimension">
+      <UniqueIdentifier>{56bf4431-ad8c-442d-898c-874a594aa033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\TrayIcon">
+      <UniqueIdentifier>{27565e41-aae2-4042-80f6-20164ddf832a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\SettingMenu">
+      <UniqueIdentifier>{4308a480-9d97-4fc7-980a-82c5c5106dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\TrayIcon">
+      <UniqueIdentifier>{9f6e9601-9e69-438e-bfe3-06f597149c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\SerialControll">
+      <UniqueIdentifier>{05813a49-48a3-43a7-a572-b4bb6ada2996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Controller\Motion">
+      <UniqueIdentifier>{8665d12e-7992-4215-9b96-a62334af171f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Controller\Motion\Mouse">
+      <UniqueIdentifier>{baa51c44-dc3b-4fdf-a63f-2d860d0c35da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Controller\Motion\Mouse\Move">
+      <UniqueIdentifier>{a91eb73f-524f-438d-a05e-60c1e8ac7e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Controller\Motion\Keyboard">
+      <UniqueIdentifier>{8bcb6e49-0f81-42fd-820c-458eaef93ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Controller\Motion\Keyboard">
+      <UniqueIdentifier>{b4741403-7d7e-404d-a0ba-35d9070b5f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Controller\Motion\Mouse\Click">
+      <UniqueIdentifier>{f9dcc621-9ec8-4984-95b8-226b2ca41c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Controller\Motion\Mouse\Click">
+      <UniqueIdentifier>{507dbeea-25a6-4a53-8e4e-dab3d956e598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Controller\Motion\execute">
+      <UniqueIdentifier>{4f9038be-c86c-46ac-9252-8149239ddb4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Controller\Motion\execute">
+      <UniqueIdentifier>{b7ba7675-ec90-411b-9e73-556a961db732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Registry">
+      <UniqueIdentifier>{924670d8-608e-4ed6-9614-cac50064997b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Registry">
+      <UniqueIdentifier>{beab949a-3817-461e-8142-fc644db950ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TrayIconTest.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayIconTestDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EventController.h">
+      <Filter>헤더 파일\Controller\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventQueue.h">
+      <Filter>헤더 파일\Controller\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="AirMove.h">
+      <Filter>헤더 파일\Controller\Motion\Mouse\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionFragment.h">
+      <Filter>헤더 파일\Data\Motion\Fragment</Filter>
+    </ClInclude>
+    <ClInclude Include="OneDimensionFragment.h">
+      <Filter>헤더 파일\Data\Motion\Fragment</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeDimensionFragment.h">
+      <Filter>헤더 파일\Data\Motion\Fragment</Filter>
+    </ClInclude>
+    <ClInclude Include="BendSensor.h">
+      <Filter>헤더 파일\Data\OneDimension</Filter>
+    </ClInclude>
+    <ClInclude Include="OneDimensionHistoryData.h">
+      <Filter>헤더 파일\Data\OneDimension</Filter>
+    </ClInclude>
+    <ClInclude Include="PressSensor.h">
+      <Filter>헤더 파일\Data\OneDimension</Filter>
+    </ClInclude>
+    <ClInclude Include="AccStatus.h">
+      <Filter>헤더 파일\Data\ThreeDimension</Filter>
+    </ClInclude>
+    <ClInclude Include="GyroStatus.h">
+      <Filter>헤더 파일\Data\ThreeDimension</Filter>
+    </ClInclude>
+    <ClInclude Include="MagStatus.h">
+      <Filter>헤더 파일\Data\ThreeDimension</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeDimensionHistoryData.h">
+      <Filter>헤더 파일\Data\ThreeDimension</Filter>
+    </ClInclude>
+    <ClInclude Include="Directions.h">
+      <Filter>헤더 파일\EnumData</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayIconSetting.h">
+      <Filter>헤더 파일\SettingMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="First.h">
+      <Filter>헤더 파일\SettingMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Second.h">
+      <Filter>헤더 파일\SettingMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayIconMng.h">
+      <Filter>헤더 파일\TrayIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="CommThread.h">
+      <Filter>헤더 파일\SerialControll</Filter>
+    </ClInclude>
+    <ClInclude Include="History.hpp">
+      <Filter>헤더 파일\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvironmentStatus.h">
+      <Filter>헤더 파일\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="GloveStatus.h">
+      <Filter>헤더 파일\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion.h">
+      <Filter>헤더 파일\Controller\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMotion.h">
+      <Filter>헤더 파일\Controller\Motion\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="HookTest.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardAction.h">
+      <Filter>헤더 파일\Controller\Motion\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardLeftRight.h">
+      <Filter>헤더 파일\Controller\Motion\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="MakedMotion.h">
+      <Filter>헤더 파일\Controller\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionMaker.h">
+      <Filter>헤더 파일\Controller\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionHeader.h">
+      <Filter>헤더 파일\Controller\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionController.h">
+      <Filter>헤더 파일\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseWheel.h">
+      <Filter>헤더 파일\Controller\Motion\Mouse\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseClick.h">
+      <Filter>헤더 파일\Controller\Motion\Mouse\Click</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseDClick.h">
+      <Filter>헤더 파일\Controller\Motion\Mouse\Click</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseDrag.h">
+      <Filter>헤더 파일\Controller\Motion\Mouse\Click</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseRClick.h">
+      <Filter>헤더 파일\Controller\Motion\Mouse\Click</Filter>
+    </ClInclude>
+    <ClInclude Include="MakedMotionFragments.h">
+      <Filter>헤더 파일\Data\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="UIThread.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearWindow.h">
+      <Filter>헤더 파일\Controller\Motion\execute</Filter>
+    </ClInclude>
+    <ClInclude Include="executeClose.h">
+      <Filter>헤더 파일\Controller\Motion\execute</Filter>
+    </ClInclude>
+    <ClInclude Include="executeExplorer.h">
+      <Filter>헤더 파일\Controller\Motion\execute</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardWinTab.h">
+      <Filter>헤더 파일\Controller\Motion\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryDlg.h">
+      <Filter>헤더 파일\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplainDlg.h">
+      <Filter>헤더 파일\TrayIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickBar.h">
+      <Filter>헤더 파일\Controller\Motion\execute</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectDlg.h">
+      <Filter>헤더 파일\SettingMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="control_sensibility.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="OffController.h">
+      <Filter>헤더 파일\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="OnController.h">
+      <Filter>헤더 파일\Controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TrayIconTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayIconTestDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CommThread.cpp">
+      <Filter>소스 파일\SerialControll</Filter>
+    </ClCompile>
+    <ClCompile Include="First.cpp">
+      <Filter>소스 파일\SettingMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Second.cpp">
+      <Filter>소스 파일\SettingMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayIconSetting.cpp">
+      <Filter>소스 파일\SettingMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="AirMove.cpp">
+      <Filter>소스 파일\Controller\Motion\Mouse\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMotion.cpp">
+      <Filter>소스 파일\Controller\Motion\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion.cpp">
+      <Filter>소스 파일\Controller\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentStatus.cpp">
+      <Filter>소스 파일\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="GloveStatus.cpp">
+      <Filter>소스 파일\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionFragment.cpp">
+      <Filter>소스 파일\Data\Motion\Fragment</Filter>
+    </ClCompile>
+    <ClCompile Include="OneDimensionFragment.cpp">
+      <Filter>소스 파일\Data\Motion\Fragment</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeDimensionFragment.cpp">
+      <Filter>소스 파일\Data\Motion\Fragment</Filter>
+    </ClCompile>
+    <ClCompile Include="BendSensor.cpp">
+      <Filter>소스 파일\Data\OneDimension</Filter>
+    </ClCompile>
+    <ClCompile Include="OneDimensionHistoryData.cpp">
+      <Filter>소스 파일\Data\OneDimension</Filter>
+    </ClCompile>
+    <ClCompile Include="PressSensor.cpp">
+      <Filter>소스 파일\Data\OneDimension</Filter>
+    </ClCompile>
+    <ClCompile Include="AccStatus.cpp">
+      <Filter>소스 파일\Data\ThreeDimension</Filter>
+    </ClCompile>
+    <ClCompile Include="GyroStatus.cpp">
+      <Filter>소스 파일\Data\ThreeDimension</Filter>
+    </ClCompile>
+    <ClCompile Include="MagStatus.cpp">
+      <Filter>소스 파일\Data\ThreeDimension</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeDimensionHistoryData.cpp">
+      <Filter>소스 파일\Data\ThreeDimension</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayIconMng.cpp">
+      <Filter>소스 파일\TrayIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="HookTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardLeftRight.cpp">
+      <Filter>소스 파일\Controller\Motion\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionMaker.cpp">
+      <Filter>소스 파일\Controller\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionController.cpp">
+      <Filter>소스 파일\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseWheel.cpp">
+      <Filter>소스 파일\Controller\Motion\Mouse\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseClick.cpp">
+      <Filter>소스 파일\Controller\Motion\Mouse\Click</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseDClick.cpp">
+      <Filter>소스 파일\Controller\Motion\Mouse\Click</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseDrag.cpp">
+      <Filter>소스 파일\Controller\Motion\Mouse\Click</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseRClick.cpp">
+      <Filter>소스 파일\Controller\Motion\Mouse\Click</Filter>
+    </ClCompile>
+    <ClCompile Include="MakedMotionFragments.cpp">
+      <Filter>소스 파일\Data\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardAction.cpp">
+      <Filter>소스 파일\Controller\Motion\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="UIThread.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplainDlg.cpp">
+      <Filter>소스 파일\TrayIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearWindow.cpp">
+      <Filter>소스 파일\Controller\Motion\execute</Filter>
+    </ClCompile>
+    <ClCompile Include="executeClose.cpp">
+      <Filter>소스 파일\Controller\Motion\execute</Filter>
+    </ClCompile>
+    <ClCompile Include="executeExplorer.cpp">
+      <Filter>소스 파일\Controller\Motion\execute</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboardWinTab.cpp">
+      <Filter>소스 파일\Controller\Motion\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryDlg.cpp">
+      <Filter>소스 파일\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickBar.cpp">
+      <Filter>소스 파일\Controller\Motion\execute</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectDlg.cpp">
+      <Filter>소스 파일\SettingMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="OnController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OffController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="control_sensibility.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TrayIconTest.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TrayIconTest.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\TrayIconTest.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\StartHand.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\테스트중\스크린샷 2015-08-14 00.24.11.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\카카오톡 받은 파일\스크린샷 2015-08-14 00.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\startimage.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\MagicGlove.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

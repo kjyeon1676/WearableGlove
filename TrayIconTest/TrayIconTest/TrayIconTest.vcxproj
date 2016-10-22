@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8F3651D1-451B-4258-9F2E-29B62F337FE6}</ProjectGuid>
+    <RootNamespace>TrayIconTest</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccStatus.h" />
+    <ClInclude Include="AirMove.h" />
+    <ClInclude Include="BendSensor.h" />
+    <ClInclude Include="ClearWindow.h" />
+    <ClInclude Include="CommThread.h" />
+    <ClInclude Include="ConnectDlg.h" />
+    <ClInclude Include="control_sensibility.h" />
+    <ClInclude Include="Directions.h" />
+    <ClInclude Include="EnvironmentStatus.h" />
+    <ClInclude Include="EventController.h" />
+    <ClInclude Include="EventQueue.h" />
+    <ClInclude Include="executeClose.h" />
+    <ClInclude Include="executeExplorer.h" />
+    <ClInclude Include="ExplainDlg.h" />
+    <ClInclude Include="First.h" />
+    <ClInclude Include="GloveStatus.h" />
+    <ClInclude Include="GyroStatus.h" />
+    <ClInclude Include="History.hpp" />
+    <ClInclude Include="HookTest.h" />
+    <ClInclude Include="KeyboardAction.h" />
+    <ClInclude Include="KeyboardLeftRight.h" />
+    <ClInclude Include="KeyboardWinTab.h" />
+    <ClInclude Include="MagStatus.h" />
+    <ClInclude Include="MakedMotion.h" />
+    <ClInclude Include="MakedMotionFragments.h" />
+    <ClInclude Include="Motion.h" />
+    <ClInclude Include="MotionController.h" />
+    <ClInclude Include="MotionFragment.h" />
+    <ClInclude Include="MotionHeader.h" />
+    <ClInclude Include="MotionMaker.h" />
+    <ClInclude Include="MouseClick.h" />
+    <ClInclude Include="MouseDClick.h" />
+    <ClInclude Include="MouseDrag.h" />
+    <ClInclude Include="MouseMotion.h" />
+    <ClInclude Include="MouseRClick.h" />
+    <ClInclude Include="MouseWheel.h" />
+    <ClInclude Include="OffController.h" />
+    <ClInclude Include="OnController.h" />
+    <ClInclude Include="OneDimensionFragment.h" />
+    <ClInclude Include="OneDimensionHistoryData.h" />
+    <ClInclude Include="PressSensor.h" />
+    <ClInclude Include="ProgressDlg.h" />
+    <ClInclude Include="QuickBar.h" />
+    <ClInclude Include="RegistryDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Second.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ThreeDimensionFragment.h" />
+    <ClInclude Include="ThreeDimensionHistoryData.h" />
+    <ClInclude Include="TrayIconMng.h" />
+    <ClInclude Include="TrayIconSetting.h" />
+    <ClInclude Include="TrayIconTest.h" />
+    <ClInclude Include="TrayIconTestDlg.h" />
+    <ClInclude Include="UIThread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccStatus.cpp" />
+    <ClCompile Include="AirMove.cpp" />
+    <ClCompile Include="BendSensor.cpp" />
+    <ClCompile Include="ClearWindow.cpp" />
+    <ClCompile Include="CommThread.cpp" />
+    <ClCompile Include="ConnectDlg.cpp" />
+    <ClCompile Include="control_sensibility.cpp" />
+    <ClCompile Include="EnvironmentStatus.cpp" />
+    <ClCompile Include="executeClose.cpp" />
+    <ClCompile Include="executeExplorer.cpp" />
+    <ClCompile Include="ExplainDlg.cpp" />
+    <ClCompile Include="First.cpp" />
+    <ClCompile Include="GloveStatus.cpp" />
+    <ClCompile Include="GyroStatus.cpp" />
+    <ClCompile Include="HookTest.cpp" />
+    <ClCompile Include="KeyboardAction.cpp" />
+    <ClCompile Include="KeyboardLeftRight.cpp" />
+    <ClCompile Include="keyboardWinTab.cpp" />
+    <ClCompile Include="MagStatus.cpp" />
+    <ClCompile Include="MakedMotionFragments.cpp" />
+    <ClCompile Include="Motion.cpp" />
+    <ClCompile Include="MotionController.cpp" />
+    <ClCompile Include="MotionFragment.cpp" />
+    <ClCompile Include="MotionMaker.cpp" />
+    <ClCompile Include="MouseClick.cpp" />
+    <ClCompile Include="MouseDClick.cpp" />
+    <ClCompile Include="MouseDrag.cpp" />
+    <ClCompile Include="MouseMotion.cpp" />
+    <ClCompile Include="MouseRClick.cpp" />
+    <ClCompile Include="MouseWheel.cpp" />
+    <ClCompile Include="OffController.cpp" />
+    <ClCompile Include="OnController.cpp" />
+    <ClCompile Include="OneDimensionFragment.cpp" />
+    <ClCompile Include="OneDimensionHistoryData.cpp" />
+    <ClCompile Include="PressSensor.cpp" />
+    <ClCompile Include="ProgressDlg.cpp" />
+    <ClCompile Include="QuickBar.cpp" />
+    <ClCompile Include="RegistryDlg.cpp" />
+    <ClCompile Include="Second.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ThreeDimensionFragment.cpp" />
+    <ClCompile Include="ThreeDimensionHistoryData.cpp" />
+    <ClCompile Include="TrayIconMng.cpp" />
+    <ClCompile Include="TrayIconSetting.cpp" />
+    <ClCompile Include="TrayIconTest.cpp" />
+    <ClCompile Include="TrayIconTestDlg.cpp" />
+    <ClCompile Include="UIThread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TrayIconTest.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TrayIconTest.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Documents\카카오톡 받은 파일\스크린샷 2015-08-14 00.bmp" />
+    <Image Include="..\..\테스트중\스크린샷 2015-08-14 00.24.11.bmp" />
+    <Image Include="res\MagicGlove.ico" />
+    <Image Include="res\StartHand.bmp" />
+    <Image Include="res\startimage.bmp" />
+    <Image Include="res\TrayIconTest.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="TrayIconTest.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

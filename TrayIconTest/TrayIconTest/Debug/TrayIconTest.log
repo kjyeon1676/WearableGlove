@@ -1,0 +1,72 @@
+﻿빌드 시작: 2015-08-30 오후 7:25:29
+     1>2 노드의 "C:\Users\mango.DGSSM\Desktop\TrayIconTest\TrayIconTest\TrayIconTest.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TrayIconTest.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConnectDlg.cpp First.cpp HookTest.cpp ProgressDlg.cpp Second.cpp TrayIconSetting.cpp TrayIconTest.cpp TrayIconTestDlg.cpp UIThread.cpp
+         First.cpp
+     1>c:\users\mango.dgssm\desktop\trayicontest\trayicontest\first.cpp(340): warning C4101: 'Reg_Ret' :참조되지 않은 지역 변수입니다.
+     1>c:\users\mango.dgssm\desktop\trayicontest\trayicontest\first.cpp(410): warning C4101: 'Reg_Ret' :참조되지 않은 지역 변수입니다.
+         코드를 생성하고 있습니다...
+         건너뛰고 있습니다... (관련된 변경 내용 없음)
+         UIThread.cpp
+         TrayIconTestDlg.cpp
+         TrayIconTest.cpp
+         TrayIconSetting.cpp
+         Second.cpp
+         ProgressDlg.cpp
+         HookTest.cpp
+         ConnectDlg.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mango.DGSSM\Desktop\TrayIconTest\Debug\TrayIconTest.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\mango.DGSSM\Desktop\TrayIconTest\Debug\TrayIconTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mango.DGSSM\Desktop\TrayIconTest\Debug\TrayIconTest.lib" /MACHINE:X86 Debug\TrayIconTest.res
+         Debug\AccStatus.obj
+         Debug\AirMove.obj
+         Debug\BendSensor.obj
+         Debug\ClearWindow.obj
+         Debug\CommThread.obj
+         Debug\ConnectDlg.obj
+         Debug\control_sensibility.obj
+         Debug\EnvironmentStatus.obj
+         Debug\executeClose.obj
+         Debug\executeExplorer.obj
+         Debug\ExplainDlg.obj
+         Debug\First.obj
+         Debug\GloveStatus.obj
+         Debug\GyroStatus.obj
+         Debug\HookTest.obj
+         Debug\KeyboardAction.obj
+         Debug\KeyboardLeftRight.obj
+         Debug\keyboardWinTab.obj
+         Debug\MagStatus.obj
+         Debug\MakedMotionFragments.obj
+         Debug\Motion.obj
+         Debug\MotionController.obj
+         Debug\MotionFragment.obj
+         Debug\MotionMaker.obj
+         Debug\MouseClick.obj
+         Debug\MouseDClick.obj
+         Debug\MouseDrag.obj
+         Debug\MouseMotion.obj
+         Debug\MouseRClick.obj
+         Debug\MouseWheel.obj
+         Debug\OffController.obj
+         Debug\OnController.obj
+         Debug\OneDimensionFragment.obj
+         Debug\OneDimensionHistoryData.obj
+         Debug\PressSensor.obj
+         Debug\ProgressDlg.obj
+         Debug\QuickBar.obj
+         Debug\RegistryDlg.obj
+         Debug\Second.obj
+         Debug\stdafx.obj
+         Debug\ThreeDimensionFragment.obj
+         Debug\ThreeDimensionHistoryData.obj
+         Debug\TrayIconMng.obj
+         Debug\TrayIconSetting.obj
+         Debug\TrayIconTest.obj
+         Debug\TrayIconTestDlg.obj
+         Debug\UIThread.obj
+         TrayIconTest.vcxproj -> C:\Users\mango.DGSSM\Desktop\TrayIconTest\Debug\TrayIconTest.exe
+     1>"C:\Users\mango.DGSSM\Desktop\TrayIconTest\TrayIconTest\TrayIconTest.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.58

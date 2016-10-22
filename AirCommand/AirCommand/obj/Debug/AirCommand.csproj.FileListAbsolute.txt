@@ -1,0 +1,16 @@
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\bin\Debug\AirCommand.exe.config
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\bin\Debug\AirCommand.exe
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\bin\Debug\AirCommand.pdb
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\obj\Debug\AirCommand.csprojResolveAssemblyReference.cache
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\obj\Debug\AirCommand.MainFrame.resources
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\obj\Debug\AirCommand.Properties.Resources.resources
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\obj\Debug\AirCommand.csproj.GenerateResource.Cache
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\obj\Debug\AirCommand.exe
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\obj\Debug\AirCommand.pdb
+\\mem\12. 과제관련\2015\Wearable Magic Glove 를 이용한 확장 입력장치\7. 소스코드\AirCommand\AirCommand\bin\Debug\AirCommand.exe.config
+\\mem\12. 과제관련\2015\Wearable Magic Glove 를 이용한 확장 입력장치\7. 소스코드\AirCommand\AirCommand\obj\Debug\AirCommand.exe
+\\mem\12. 과제관련\2015\Wearable Magic Glove 를 이용한 확장 입력장치\7. 소스코드\AirCommand\AirCommand\obj\Debug\AirCommand.pdb
+\\mem\12. 과제관련\2015\Wearable Magic Glove 를 이용한 확장 입력장치\7. 소스코드\AirCommand\AirCommand\obj\Debug\AirCommand.csprojResolveAssemblyReference.cache
+\\mem\12. 과제관련\2015\Wearable Magic Glove 를 이용한 확장 입력장치\7. 소스코드\AirCommand\AirCommand\obj\Debug\AirCommand.MainFrame.resources
+\\mem\12. 과제관련\2015\Wearable Magic Glove 를 이용한 확장 입력장치\7. 소스코드\AirCommand\AirCommand\obj\Debug\AirCommand.Properties.Resources.resources
+\\mem\12. 과제관련\2015\Wearable Magic Glove 를 이용한 확장 입력장치\7. 소스코드\AirCommand\AirCommand\obj\Debug\AirCommand.csproj.GenerateResource.Cache

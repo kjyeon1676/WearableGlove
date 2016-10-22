@@ -1,0 +1,66 @@
+﻿빌드 시작: 2015-08-30 오후 7:50:55
+     1>2 노드의 "C:\Users\mango.DGSSM\Desktop\TrayIconTest\TrayIconTest\TrayIconTest.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\TrayIconTest.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AccStatus.cpp Motion.cpp PressSensor.cpp
+         AccStatus.cpp
+         Motion.cpp
+         PressSensor.cpp
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0412" /IRelease\ /nologo /fo"Release\TrayIconTest.res" TrayIconTest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mango.DGSSM\Desktop\TrayIconTest\Release\TrayIconTest.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\mango.DGSSM\Desktop\TrayIconTest\Release\TrayIconTest.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mango.DGSSM\Desktop\TrayIconTest\Release\TrayIconTest.lib" /MACHINE:X86 /SAFESEH Release\TrayIconTest.res
+         Release\AccStatus.obj
+         Release\AirMove.obj
+         Release\BendSensor.obj
+         Release\ClearWindow.obj
+         Release\CommThread.obj
+         Release\ConnectDlg.obj
+         Release\control_sensibility.obj
+         Release\EnvironmentStatus.obj
+         Release\executeClose.obj
+         Release\executeExplorer.obj
+         Release\ExplainDlg.obj
+         Release\First.obj
+         Release\GloveStatus.obj
+         Release\GyroStatus.obj
+         Release\HookTest.obj
+         Release\KeyboardAction.obj
+         Release\KeyboardLeftRight.obj
+         Release\keyboardWinTab.obj
+         Release\MagStatus.obj
+         Release\MakedMotionFragments.obj
+         Release\Motion.obj
+         Release\MotionController.obj
+         Release\MotionFragment.obj
+         Release\MotionMaker.obj
+         Release\MouseClick.obj
+         Release\MouseDClick.obj
+         Release\MouseDrag.obj
+         Release\MouseMotion.obj
+         Release\MouseRClick.obj
+         Release\MouseWheel.obj
+         Release\OffController.obj
+         Release\OnController.obj
+         Release\OneDimensionFragment.obj
+         Release\OneDimensionHistoryData.obj
+         Release\PressSensor.obj
+         Release\ProgressDlg.obj
+         Release\QuickBar.obj
+         Release\RegistryDlg.obj
+         Release\Second.obj
+         Release\stdafx.obj
+         Release\ThreeDimensionFragment.obj
+         Release\ThreeDimensionHistoryData.obj
+         Release\TrayIconMng.obj
+         Release\TrayIconSetting.obj
+         Release\TrayIconTest.obj
+         Release\TrayIconTestDlg.obj
+         Release\UIThread.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         TrayIconTest.vcxproj -> C:\Users\mango.DGSSM\Desktop\TrayIconTest\Release\TrayIconTest.exe
+     1>"C:\Users\mango.DGSSM\Desktop\TrayIconTest\TrayIconTest\TrayIconTest.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:04.25

@@ -1,0 +1,8 @@
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\bin\Release\AirCommand.exe.config
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\bin\Release\AirCommand.exe
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\bin\Release\AirCommand.pdb
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\obj\Release\AirCommand.MainFrame.resources
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\obj\Release\AirCommand.Properties.Resources.resources
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\obj\Release\AirCommand.csproj.GenerateResource.Cache
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\obj\Release\AirCommand.exe
+C:\Users\mango.DGSSM\Documents\Visual Studio 2013\Projects\AirCommand\AirCommand\obj\Release\AirCommand.pdb
